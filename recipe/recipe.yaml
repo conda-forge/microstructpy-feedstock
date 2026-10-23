@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: microstructpy
-  version: "1.6.0"
+  version: "1.6.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/microstructpy-${{ version }}.tar.gz
-  sha256: 599134c8c3c7b1cca48f650252edeea99d3bf0239a4783855419bd544e2d4cf3
+  sha256: 514c34c7b94c105c81302b2607a632edbecd44c75b8f0c6a3d96a33e80f12d98
 
 build:
   number: 0
